@@ -1,0 +1,34 @@
+:root{
+    --kokrang: #00a3ff;
+    --oqrang: #ffffff;
+}
+.knopkalar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: var(--kokrang);
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.btnlink{
+    background-color: var(--kokrang);
+    padding: 9px 15px;
+    border-radius: 10px;
+    color: var(--oqrang);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btndiv{
+    background-color: var(--kokrang);
+    padding: 7px;
+    border-radius: 10px;
+    color: var(--oqrang);
+    width: 65px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
